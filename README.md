@@ -20,5 +20,5 @@ npm run serve
 
 - If you want to specify the port to 3001, you can launch as follows.
 ```commandline
-npm start -- --port 3001
+npm start -- --port 3100 --host 0.0.0.0
 ```
