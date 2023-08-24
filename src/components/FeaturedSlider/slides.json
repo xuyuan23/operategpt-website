@@ -1,0 +1,15 @@
+[
+  {
+    "title": "OperateGPT",
+    "description": "Using large language models and multi-agent technology, a single request can automatically generate marketing copy, images, and videos, and with one click, can be sent to multiple platforms, achieving a rapid transformation in marketing operations.",
+    "outlinedButton": {
+      "buttonText": "Travel OperateGPT",
+      "url": "/docs/README_ZH"
+    },
+    "solidButton": {
+      "buttonText": "Experience Now!",
+      "url": "http://dev.operategpt.cn"
+    },
+    "imagePath": "/img/banner_right.svg"
+  }
+]
