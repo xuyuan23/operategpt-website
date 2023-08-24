@@ -3,6 +3,7 @@
 Website of [OperateGPT](http://operategpt.cn).
 
 ## How to develop
+- The default service starts on port `3000`, visit `localhost:3000`
 ```commandline
 
 # clone current project firstly!
@@ -16,4 +17,8 @@ sudo npm run build
 npm run serve
 ```
 
-The default service starts on port `3000`, visit `localhost:3000`
+
+- If you want to specify the port to 3001, you can launch as follows.
+```commandline
+npm start -- --port 3001
+```
