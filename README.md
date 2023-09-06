@@ -22,3 +22,10 @@ npm run serve
 ```commandline
 npm start -- --port 3100 --host 0.0.0.0
 ```
+
+## Quick Start
+
+```commandline
+docker build -t operategptweb .
+docker run --restart=unless-stopped -d -p 3100:3000 operategptweb
+```
