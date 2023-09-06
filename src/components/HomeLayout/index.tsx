@@ -85,9 +85,9 @@ export default function HomeLayout() {
                 <div className='about__icon'>
                   <ToolPerson />
                 </div>
-                <h3 className='about__header'>Embedding</h3>
+                <h3 className='about__header'>Real-Time Search</h3>
                 <p className='about__description'>
-                  Embed data as vectors and store them in vector databases, providing content similarity search.
+                  Support to obtain the latest data and news information from the website
                 </p>
               </div>
             </Link>
@@ -96,7 +96,7 @@ export default function HomeLayout() {
                 <div className='about__icon'>
                   <ToolData />
                 </div>
-                <h3 className='about__header'>BI</h3>
+                <h3 className='about__header'>Multiply Scenes</h3>
                 <p className='about__description'>
                   Support multiply scenes, generate images, videos and chapters.
                 </p>
@@ -107,20 +107,9 @@ export default function HomeLayout() {
                 <div className='about__icon'>
                   <ToolProduct />
                 </div>
-                <h3 className='about__header'>Knowledge Summary</h3>
+                <h3 className='about__header'>Knowledge Based QA</h3>
                 <p className='about__description'>
-                  You can do summary based on local documents such as pdf, word, excel and other data.
-                </p>
-              </div>
-            </Link>
-            <Link to='docs/README_ZH' className='about__card'>
-              <div className='about__section'>
-                <div className='about__icon'>
-                  <ToolSecure />
-                </div>
-                <h3 className='about__header'>Privacy & Secure</h3>
-                <p className='about__description'>
-                  You can be assured that there is no risk of data leakage, and your data is 100% private and secure.
+                  support summary for multiply datasource, such as pdf, word, RDBMS, NoSQL, excel..etc.
                 </p>
               </div>
             </Link>
