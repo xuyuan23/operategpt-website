@@ -69,18 +69,18 @@ export default function HomeLayout() {
         <HomepageSection header='Abilities' description='Introduction to Framework Capabilities'>
           <div className='about__cards'>
             <Link
-              to='docs/README_ZH' className='about__card'>
+              to='docs/en/README' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolDev />
                 </div>
-                <h3 className='about__header'>Multi-Models</h3>
+                <h3 className='about__header'>Multi-Models Supported</h3>
                 <p className='about__description'>
                   Support multiply LLMs, such as chatglm, vicuna, Qwen, and proxy of chatgpt and bard.
                 </p>
               </div>
             </Link>
-            <Link to='docs/README_ZH' className='about__card'>
+            <Link to='docs/en/README' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolPerson />
@@ -91,7 +91,7 @@ export default function HomeLayout() {
                 </p>
               </div>
             </Link>
-            <Link to='docs/README_ZH' className='about__card'>
+            <Link to='docs/en/README' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolData />
@@ -102,7 +102,7 @@ export default function HomeLayout() {
                 </p>
               </div>
             </Link>
-            <Link to='docs/README_ZH' className='about__card'>
+            <Link to='docs/en/OperateGPT' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolProduct />
@@ -110,6 +110,17 @@ export default function HomeLayout() {
                 <h3 className='about__header'>Knowledge Based QA</h3>
                 <p className='about__description'>
                   support summary for multiply datasource, such as pdf, word, RDBMS, NoSQL, excel..etc.
+                </p>
+              </div>
+            </Link>
+            <Link to='docs/en/multi_models_manage' className='about__card'>
+              <div className='about__section'>
+                <div className='about__icon'>
+                  <ToolSystem />
+                </div>
+                <h3 className='about__header'>Multi-Model Management</h3>
+                <p className='about__description'>
+                  Support for managing multiple models, model registration, model deletion, model monitoring, and inference load balancing.
                 </p>
               </div>
             </Link>

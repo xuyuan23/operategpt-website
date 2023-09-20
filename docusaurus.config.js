@@ -42,7 +42,7 @@ const config = {
 
   themeConfig:
     ({
-      defaultClassicDocs: '/docs/README_ZH',
+      defaultClassicDocs: '/docs/en/README',
       navbar: {
         logo: {
           alt: 'operateGPT Logo',
@@ -72,11 +72,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/README_ZH',
+                to: '/docs/en/README',
               },
               {
                 label: 'How OperateGPT Works',
-                to: '/docs/how_operategpt_work_zh',
+                to: '/docs/en/OperateGPT',
               },
             ],
           },
@@ -84,8 +84,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/xuyuan23/operateGPT',
+                label: 'CSDN',
+                href: 'https://blog.csdn.net/weixin_43193041?type=blog',
+              },
+              {
+                label: 'Juejin',
+                href: 'https://juejin.cn/user/169737643364749/posts',
+              },
+              {
+                label: 'Zhihu',
+                href: 'https://www.zhihu.com/people/peaceful-xu',
+              },
+              {
+                label: 'Medium',
+                href: 'https://medium.com/@yuqiutong233',
               },
             ],
           },
