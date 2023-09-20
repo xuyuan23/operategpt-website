@@ -69,7 +69,7 @@ export default function HomeLayout() {
         <HomepageSection header='Abilities' description='Introduction to Framework Capabilities'>
           <div className='about__cards'>
             <Link
-              to='docs/en/README' className='about__card'>
+              to='docs/en/' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolDev />
@@ -80,7 +80,7 @@ export default function HomeLayout() {
                 </p>
               </div>
             </Link>
-            <Link to='docs/en/README' className='about__card'>
+            <Link to='docs/en/' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolPerson />
@@ -91,7 +91,7 @@ export default function HomeLayout() {
                 </p>
               </div>
             </Link>
-            <Link to='docs/en/README' className='about__card'>
+            <Link to='docs/en/' className='about__card'>
               <div className='about__section'>
                 <div className='about__icon'>
                   <ToolData />

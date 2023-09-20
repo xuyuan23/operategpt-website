@@ -42,7 +42,7 @@ const config = {
 
   themeConfig:
     ({
-      defaultClassicDocs: '/docs/en/README',
+      defaultClassicDocs: '/docs/en/',
       navbar: {
         logo: {
           alt: 'operateGPT Logo',
@@ -72,7 +72,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/en/README',
+                to: '/docs/en/',
               },
               {
                 label: 'How OperateGPT Works',
